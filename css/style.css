@@ -1,0 +1,88 @@
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:active, .contact-block a:visited {
+    color: grey;
+}
+
+/* HEADER */
+.title {
+    font-family: 'Satisfy', sans-serif;
+    font-size: 4rem;
+
+    text-transform: lowercase;
+
+    margin: 1rem;
+}
+
+/* MAIN */
+
+.content-section {
+    margin: 1.5rem 3rem;   
+}
+
+.content {
+    margin: 0 1.5rem;
+}
+
+.content a {
+    text-decoration: underline;
+    font-style: italic; 
+}
+.sub-title {
+    font-family: 'Satisfy', sans-serif;
+    font-size: 2rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.expanded {
+    color: grey;
+}
+
+.position-title {
+    margin-top: .5rem;
+}
+
+ul {
+    margin: .5rem 0;
+}
+
+li {
+    list-style: square; 
+}
+
+/* FOOTER */
+.footer {
+    height: 5vh;
+    text-transform: uppercase;
+}
+
+.contact-block {
+    text-align: center;
+}
+
+.icon-badge  {
+    display: inline;
+    font-size: 2rem;
+}
+
+.copyright-block {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+/* UTILITY */
+.center {
+    text-align: center;
+}
+
